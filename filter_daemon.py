@@ -74,8 +74,11 @@ class StreamWatcherListener(TwythonStreamer):
 
 
 if __name__ == '__main__':
-    words = ["why", "how", "when", "where", "who", "feeling", "lol"]
+    #words = ["why", "how", "when", "where", "who", "feeling", "lol"]
 
+    words = ["#nowplaying", "#nowlistening","#NowPlaying","#NowListening"]
+
+    
     #auth = tweepy.auth.OAuthHandler(consumer_key, consumer_secret)
     #auth.set_access_token(access_token, access_token_secret)
 
