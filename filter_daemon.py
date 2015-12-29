@@ -40,8 +40,8 @@ class StreamWatcherListener(TwythonStreamer):
         if not 'text' in tweet:
             return
         try:
-            if '@' in tweet['text'] or not tweet['text'].endswith('?'):
-                return True
+            #if '@' in tweet['text'] or not tweet['text'].endswith('?'):
+            #    return True
             print tweet['text'].encode('utf-8')
             print '\n %s  %s\n' % (tweet['user']['screen_name'], tweet['created_at'])
 
